@@ -1,0 +1,184 @@
+
+/* reset de CCS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+html{
+    font-family: "Montserrat", sans-serif;
+}
+
+/* header{
+    background-color:rgb(184, 184, 184); 
+}*/
+
+.header-link{
+    text-align: center;
+    align-items: center;
+
+    background-color:#5252af33;
+    padding: 3px;
+}
+
+.header-flex{
+    text-align: center;
+    align-items: center;
+    color:white;
+    background-color:#1f2a44de;
+
+}
+
+
+ header a{
+
+    color:rgb(86, 84, 84);
+    /* text-decoration: none; */
+    /* padding: 3px; */
+    /* border-bottom: 3px solid #4da6ff; */
+ 
+  }
+
+ .item{
+    color: #0f0f10;
+    background-color: rgba(240, 240, 240, 0.60);
+    text-align: center;
+    border-radius: 10px; 
+    font-size: 20px;
+    padding: 10px 20px;
+ }
+.texto{
+    color: #0f0f10;
+    background-color: rgba(240, 240, 240, 0.60);
+    text-align: justify;
+    border-radius: 10px; 
+    font-size: 20px;
+    padding: 10px 20px;
+    padding-bottom: 20px; 
+
+ }
+   
+  .galeria{
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  } 
+
+  .galeria img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+
+  }
+
+ .info {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 10vh;
+    padding-bottom: 20px;
+    
+   
+ }
+
+ main{
+    background-image: url(../IMAGENES/fondo_index1.jpg);
+    background-size: cover;
+    
+
+
+
+ 
+ }
+
+ footer{
+    align-items: center;
+    text-align: center;
+    background-color:#5252af33;
+ }
+    
+
+form {
+    max-width: 600px;
+     margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(240, 240, 240, 0.60);
+    border-radius: 12px;
+
+}
+
+
+label {
+    display:block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #0f0f10;
+}
+
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 8px;
+box-sizing: border-box;
+font-size: 14px;
+}
+
+
+textarea {
+resize:vertical;
+min-height: 100px;
+}
+
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 50px;
+}
+
+
+input[type="submit"] {
+    margin-top: 20px;
+    background-color:#1f2a44de;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.centrar{
+    text-align: center;
+    align-items: center;
+    padding: 3px;
+
+}
+
+.ajustar{
+    text-align: center;
+    align-items: center;
+
+    
+}
+
+
+.imagen{
+    width: ;: 150px;
+
+}
+
