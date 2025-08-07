@@ -8,19 +8,42 @@
     <!--font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     <title>Zona Centro Sur</title>
 </head>
 <body>
     <header>
-        <div class="header-flex">
-            <!-- <img src="./IMAGENES/Logotipo_montaña.jpeg" alt="logotipo"> -->
-        <h1>Zona Centro Sur</h1>
-        </div>
-        <div class="header-link" >
-            <a href="../index.html">Volver a Pagina Principal</a>
-
-        </div>
+       <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid" > 
+                <div>
+                    <a class="navbar-brand " href="#">
+                    <img src="../IMAGENES/Logotipo_montaña.jpeg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">Montañas de Chile
+                </a>
+                 </div> 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./Zona-Norte.html">Zona Norte</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Zona-Centro.html">Zona Centro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Zona-Sur.html">Zona Sur</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
         
