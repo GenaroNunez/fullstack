@@ -1,0 +1,181 @@
+// Variables
+$color-principal: #1f2a44de;
+$color-secundario: #5252af33;
+$color-item-bg: rgba(240, 240, 240, 0.60);
+$color-item-text: #0f0f10;
+$color-header-link: rgb(86, 84, 84);
+$color-info-bg: #f5f5f5;
+$color-submit-hover: #45a049;
+$font-principal: "Montserrat", sans-serif;
+
+// Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+html {
+  font-family: $font-principal;
+}
+
+.header-link {
+  text-align: center;
+  align-items: center;
+  background-color: $color-secundario;
+  padding: 3px;
+}
+
+.header-flex {
+  text-align: center;
+  align-items: center;
+  color: white;
+  background-color: $color-principal;
+}
+
+header a {
+  color: $color-header-link;
+}
+
+.item {
+  display: flex-box;
+  color: $color-item-text;
+  background-color: $color-item-bg;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1rem;
+  padding: 10px 20px;
+}
+
+.texto {
+  color: $color-item-text;
+  background-color: $color-item-bg;
+  text-align: justify;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px 20px;
+  padding-bottom: 20px;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+  margin: 1rem 0;
+  .item {
+    margin: 0.5rem;
+    margin-bottom: 0.2rem;
+    background: $color-info-bg;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    min-width: 220px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+}
+
+main {
+  background-image: url(../IMAGENES/fondo_index1.jpg);
+  background-size: cover;
+}
+
+footer {
+  align-items: center;
+  text-align: center;
+  background-color: $color-secundario;
+}
+
+form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: $color-item-bg;
+  border-radius: 12px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: $color-item-text;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 50px;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  background-color: $color-principal;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  &:hover {
+    background-color: $color-submit-hover;
+  }
+}
+
+.centrar {
+  text-align: center;
+  align-items: center;
+  padding: 3px;
+}
+
+.ajustar {
+  text-align: center;
+  align-items: center;
+}
+
+.imagen {
+  width: 150px;
+}
+
+@media (max-width: 600px) {
+  .info {
+    flex-direction: column;
+    align-items: center;
+    .item {
+      width: 90%;
+      min-width: unset;
+    }
+  }
+}
