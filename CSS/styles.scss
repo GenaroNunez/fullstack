@@ -1,19 +1,5 @@
-$primary-color: #4CAF50;
+@import "./layout/main.scss";
+@import "./layout/header.scss";
+@import "./utilities/extend.scss";
 
-body {
-  background-color: $primary-color;
-
-}
-
-header {
-  background-color: $primary-color;
-  nav{
-    padding: 20px;
-    ul{
-      li{
-        text-decoration: underline
-        }
-      }
-    }
-  };
 
